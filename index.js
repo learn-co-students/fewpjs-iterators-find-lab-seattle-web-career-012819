@@ -1,5 +1,5 @@
-const testVar = {}
+function superbowlWin(array){
+let answer = array.find(record => record.result == "W")
 
-function testFunc() {
-  return "hi"
+return answer ? answer.year : undefined
 }
